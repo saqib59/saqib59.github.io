@@ -1,11 +1,11 @@
 // Check if the app is running locally
 if (window.location.hostname === 'localhost') {
   // Set the start URL for local development
-  var root = '/pwa-with-vanilla-js';
+  var serviceWorker = '/saqib59.github.io/serviceWorker-local.js';
   document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest-local.json');
 } else {
   // Set the start URL for live server
-  var root = '';
+  var serviceWorker = '/serviceWorker.js';
   document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest.json');
 }
 const container = document.querySelector(".container");
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", showCoffees);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register(`${root}/serviceWorker.js`)
+      .register(serviceWorker)
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
