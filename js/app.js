@@ -1,4 +1,11 @@
-Notification.requestPermission();
+// Check if the app is running locally
+if (window.location.hostname === 'localhost') {
+  // Set the start URL for local development
+  document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest-local.json');
+} else {
+  // Set the start URL for live server
+  document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest.json');
+}
 const container = document.querySelector(".container");
 const coffees = [
   {
