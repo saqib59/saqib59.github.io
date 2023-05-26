@@ -1,8 +1,8 @@
 {
-  "id" : "https://saqib59.github.io/",
+  "id" : "https://saqib59.github.io/pwa",
   "name": "Dev'Coffee",
   "short_name": "DevCoffee",
-  "start_url": "https://saqib59.github.io/",
+  "start_url": "https://saqib59.github.io/pwa",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",

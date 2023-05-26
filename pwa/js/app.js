@@ -1,7 +1,7 @@
 // Check if the app is running locally
 if (window.location.hostname === 'localhost') {
   // Set the start URL for local development
-  var serviceWorker = '/saqib59.github.io/serviceWorker-local.js';
+  var serviceWorker = '/saqib59.github.io/pwa/serviceWorker-local.js';
   document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest-local.json');
 } else {
   // Set the start URL for live server
