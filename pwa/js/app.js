@@ -5,7 +5,7 @@ if (window.location.hostname === 'localhost') {
   document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest-local.json');
 } else {
   // Set the start URL for live server
-  var serviceWorker = '/serviceWorker.js';
+  var serviceWorker = '/pwa/serviceWorker.js';
   document.querySelector('link[rel="manifest"]').setAttribute('href', 'manifest.json');
 }
 const container = document.querySelector(".container");
