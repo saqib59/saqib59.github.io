@@ -12,39 +12,39 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Perspiciatis",
-    image: "pwa/images/coffee1.jpg"
+    image: "images/coffee1.jpg"
   },
   {
     name: "Voluptatem",
-    image: "pwa/images/coffee2.jpg"
+    image: "images/coffee2.jpg"
   },
   {
     name: "Explicabo",
-    image: "pwa/images/coffee3.jpg"
+    image: "images/coffee3.jpg"
   },
   {
     name: "Rchitecto",
-    image: "pwa/images/coffee4.jpg"
+    image: "images/coffee4.jpg"
   },
   {
     name: " Beatae",
-    image: "pwa/images/coffee5.jpg"
+    image: "images/coffee5.jpg"
   },
   {
     name: " Vitae",
-    image: "pwa/images/coffee6.jpg"
+    image: "images/coffee6.jpg"
   },
   {
     name: "Inventore",
-    image: "pwa/images/coffee7.jpg"
+    image: "images/coffee7.jpg"
   },
   {
     name: "Veritatis",
-    image: "pwa/images/coffee8.jpg"
+    image: "images/coffee8.jpg"
   },
   {
     name: "Accusantium",
-    image: "pwa/images/coffee9.jpg"
+    image: "images/coffee9.jpg"
   }
 ];
 const showCoffees = () => {
